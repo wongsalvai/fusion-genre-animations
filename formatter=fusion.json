@@ -105,7 +105,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
       "isEnabled": true,
       "name": "IMAX",
-      "pattern": "(?i)^(?=.*\\bIMAX\\b)(?!.*enhanced)",
+      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
