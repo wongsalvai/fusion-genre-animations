@@ -107,6 +107,18 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+    {
+  "borderColor": "#FF858283",
+  "groupId": "gl",
+  "id": "l-pl",
+  "isEnabled": true,
+  "name": "🇵🇱",
+  "pattern": "(?i)(\\bpolish\\b|\\bpolski\\b|\\bpolska\\b|\\bpoland\\b|\\bpl\\b(?!ay|us|us\\b)|🇵🇱)",
+  "tagColor": "#33FFFFFF",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
+  "type": "filter"
     }
   ],
   "groups": [
@@ -123,6 +135,13 @@
       "id": "gq",
       "isExpanded": true,
       "name": "Quality"
+    },
+        {
+      "borderColor": "#FF00FF37",
+      "color": "#27C04F",
+      "id": "gl",
+      "isExpanded": true,
+      "name": "Language"
     }
   ]
 }
