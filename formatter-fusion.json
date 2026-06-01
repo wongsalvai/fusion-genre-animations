@@ -95,6 +95,7 @@
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
+      "textSize": "2px",
       "type": "filter"
     },
      {
@@ -143,10 +144,11 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/truehd.png",
       "isEnabled": true,
       "name": "TrueHD",
-      "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
+     "pattern": "(?i)^(?!.*\\batmos\\b)(?=.*true[\\s._-]?hd)",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
+      "textSize": "2px",
       "type": "filter"
     }
   ],
