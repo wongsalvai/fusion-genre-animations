@@ -126,20 +126,20 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-        {
+    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-th-dv",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/truehd-vision.png",
       "isEnabled": true,
       "name": "TrueHD+DV",
-      "pattern": "(?i)(?=.*true[._-]?hd)(?=.*(?:dv|dovi|dolby[._-]?vision))",
+      "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-        {
+    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-at-dv",
@@ -152,7 +152,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-    
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -179,7 +178,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     }
-
   ],
   "groups": [
     {
