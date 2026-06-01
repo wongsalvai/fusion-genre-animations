@@ -161,7 +161,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/truehd-vision.png",
       "isEnabled": true,
       "name": "TrueHD+DV",
-      "pattern": "(?i)^(?=.*\btrue[\s._-]?hd\b)(?=.*\b(?:dv|dovi|dolby[\s._-]?vision)\b)",
+      "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
