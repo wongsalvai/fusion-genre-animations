@@ -90,7 +90,7 @@
       "id": "q-w",
       "isEnabled": true,
       "name": "WEBRIP",
-      "pattern": "pattern": "(?i)\\b(?:web[-_. ]?rip|webrip|web rip|web-rip|webcap|web cap|webstream|web stream|streamrip|stream rip|vodrip|vod rip)\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?rip|webrip|web rip|web-rip|webcap|web cap|webstream|web stream|streamrip|stream rip|vodrip|vod rip)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
