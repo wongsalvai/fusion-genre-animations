@@ -88,7 +88,7 @@
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-hdr",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR.png",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
       "isEnabled": true,
       "name": "HDR",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
