@@ -6,7 +6,7 @@
       "id": "r-4k",
       "isEnabled": true,
       "name": "4K",
-      "pattern": "(?i)\\b(?:2160p|4k|uhd|true.?4k|native.?4k|uhd.?rip|uhd.?bluray|uhd blu.?ray)\\b(?!.*1080p)",
+      "pattern": "(?i)\\b(?:2160p|4k|uhd)\\b(?!.*1080p)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
