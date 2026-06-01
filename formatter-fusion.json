@@ -42,7 +42,7 @@
       "id": "r-480",
       "isEnabled": true,
       "name": "480p",
-      "pattern": "pattern": "(?i)\\b(?:480p|480i|sd|dvd.?rip|dvdrip|dvd rip|dvd-rip|576p|852x480|848x480|854x480)\\b",
+      "pattern": "(?i)\\b(?:480p|480i|sd|dvd.?rip|dvdrip|dvd rip|dvd-rip|576p|852x480|848x480|854x480)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
