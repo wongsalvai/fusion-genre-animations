@@ -115,7 +115,7 @@
       "borderColor": "#00000000",
       "groupId": "gv",
       "id": "a-dv",
-      "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b(?!.*\\bimax\\b)",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)^(?!.*\\bimax\\b)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
