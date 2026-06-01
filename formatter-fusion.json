@@ -18,7 +18,7 @@
       "id": "r-1080",
       "isEnabled": true,
       "name": "1080p",
-      "pattern": "pattern": "(?i)\\b(?:1080p|1080i|full.?hd|fhd|1920x1080)\\b",
+      "pattern": "(?i)\\b(?:1080p|1080i|full.?hd|fhd|1920x1080)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
