@@ -6,9 +6,9 @@
       "id": "r-4k",
       "isEnabled": true,
       "name": "4K",
-      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "pattern": "(?i)\\b(?:2160p|4k|uhd|uhdremux|true.?4k|native.?4k)\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -20,7 +20,7 @@
       "name": "1080p",
       "pattern": "(?i)\\b1080[pi]?\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -32,7 +32,7 @@
       "name": "720p",
       "pattern": "(?i)\\b720[pi]?\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -41,10 +41,10 @@
       "groupId": "gq",
       "id": "q-r",
       "isEnabled": true,
-      "name": "Remux",
+      "name": "REMUX",
       "pattern": "(?i)\\bremux\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -53,10 +53,10 @@
       "groupId": "gq",
       "id": "q-b",
       "isEnabled": true,
-      "name": "BluRay",
+      "name": "BLURAY",
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -65,10 +65,34 @@
       "groupId": "gq",
       "id": "q-w",
       "isEnabled": true,
-      "name": "WebDL",
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|webrip|web-rip)\\b",
+      "name": "WEBDL",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web-dl|web dl|itunes rip|amzn rip|amazon rip|nf rip|netflix rip|dsnp rip|disney rip)\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+        {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-w",
+      "isEnabled": true,
+      "name": "WEBRIP",
+      "pattern": "pattern": "(?i)\\b(?:web[-_. ]?rip|webrip|web rip|web-rip|webcap|web cap|webstream|web stream|streamrip|stream rip|vodrip|vod rip)\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    }
+        {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-w",
+      "isEnabled": true,
+      "name": "LOW-QUALITY",
+      "pattern": "(?i)\\b(?:hdrip|hd-?rip|hdtv|hd tv|tvrip|tv rip|tv-rip|screener|scr|ppv rip|ppv-rip|cam|ts|tc|dvdrip|dvd rip|dvd-rip|r5|r5 line|telecine|telesync|workprint|wp)\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     }
