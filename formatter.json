@@ -66,7 +66,7 @@
       "id": "q-b",
       "isEnabled": true,
       "name": "BLURAY",
-      "pattern": "(?i)\\b(?:bluray|blu.?ray|bdrip|brrip|BD|bd25|bd50)\\b(?!.*remux)",
+      "pattern": (?i)^(?!.*remux).*?\b(?:bluray|blu.?ray|bdrip|brrip|BD|bd25|bd50)\b,
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
