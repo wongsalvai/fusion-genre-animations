@@ -131,7 +131,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/atmos.png",
       "isEnabled": true,
       "name": "Atmos",
-      "pattern": "(?i)\\batmos\\b",
+      "pattern": "(?i)^((?!true[\\s._-]?hd).)*atmos",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
