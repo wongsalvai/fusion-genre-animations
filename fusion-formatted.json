@@ -87,19 +87,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-  {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-hdr10",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
-      "isEnabled": true,
-      "name": "HDR10",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bhdr(?:[\\s._-]?10)?\\b)(?!.*\\bhdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p)\\b)",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
     {
       "borderColor": "#FF858283",
       "groupId": "gv",
@@ -126,6 +113,33 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
+      {
+      "borderColor": "#FF858283",
+      "groupId": "gv",
+      "id": "v-hdr10",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
+      "isEnabled": true,
+      "name": "HDR10",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bhdr(?:[\\s._-]?10)?\\b)(?!.*\\bhdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p)\\b)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+        {
+      "borderColor": "#00000000",
+      "groupId": "ga",
+      "id": "a-th",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/truehd.png",
+      "isEnabled": true,
+      "name": "TrueHD",
+      "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -139,19 +153,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-    {
-      "borderColor": "#00000000",
-      "groupId": "ga",
-      "id": "a-th",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/truehd.png",
-      "isEnabled": true,
-      "name": "TrueHD",
-      "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
+
         {
       "borderColor": "#00000000",
       "groupId": "ga",
