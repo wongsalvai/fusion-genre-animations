@@ -54,7 +54,7 @@
       "id": "q-r",
       "isEnabled": true,
       "name": "REMUX",
-      "pattern": "(?i)\\b(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd.?remux|uhd.?remux|uhdremux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)\\b",
+      "pattern": "(?i)\\b(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd.?remux|uhd.?remux|uhdremux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)\\b(?!.*\\b(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50)\\b)"
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
