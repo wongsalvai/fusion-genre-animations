@@ -113,7 +113,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-      {
+    {
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-hdr10",
@@ -126,7 +126,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-        {
+    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-th",
@@ -139,7 +139,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-    
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -153,8 +152,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-        {
+    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-th-dv",
@@ -167,7 +165,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-        {
+    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-at-dv",
