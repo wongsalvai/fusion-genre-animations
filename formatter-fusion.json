@@ -58,7 +58,6 @@
       "pattern": "(?i)\\b(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd.?remux|uhd.?remux|uhdremux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)\\b(?!.*\\b(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50)\\b)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
-      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
@@ -70,7 +69,6 @@
       "name": "BLURAY",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
-      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
@@ -83,7 +81,6 @@
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web-dl|web dl|itunes rip|amzn rip|amazon rip|nf rip|netflix rip|web|dsnp rip|disney rip|rip|webrip|web rip|web-rip|webcap|web cap|webstream|web stream|streamrip|stream rip|vodrip|vod rip)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
-      "textColor": "#FFFFFF",
       "type": "filter"
     },
         {
