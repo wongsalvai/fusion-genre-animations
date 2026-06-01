@@ -86,7 +86,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-        {
+    {
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-hdr",
@@ -99,7 +99,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-     {
+    {
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-imax",
@@ -167,8 +167,7 @@
       "isExpanded": true,
       "name": "Quality"
     },
-
-        {
+    {
       "borderColor": "#FF858283",
       "color": "#FF6B6B",
       "id": "gv",
@@ -184,4 +183,3 @@
     }
   ]
 }
-
