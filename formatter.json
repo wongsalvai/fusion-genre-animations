@@ -87,7 +87,7 @@
     {
       "borderColor": "#FF858283",
       "groupId": "gq",
-      "id": "q-w",
+      "id": "q-rip",
       "isEnabled": true,
       "name": "WEBRIP",
       "pattern": "(?i)\\b(?:web[-_. ]?rip|webrip|web rip|web-rip|webcap|web cap|webstream|web stream|streamrip|stream rip|vodrip|vod rip)\\b",
@@ -99,7 +99,7 @@
     {
       "borderColor": "#FF858283",
       "groupId": "gq",
-      "id": "q-w",
+      "id": "q-low",
       "isEnabled": true,
       "name": "LOW-QUALITY",
       "pattern": "(?i)\\b(?:hdrip|hd-?rip|hdtv|hd tv|tvrip|tv rip|tv-rip|screener|scr|ppv rip|ppv-rip|cam|ts|tc|dvdrip|dvd rip|dvd-rip|r5|r5 line|telecine|telesync|workprint|wp)\\b",
