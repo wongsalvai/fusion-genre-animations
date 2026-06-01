@@ -1,0 +1,92 @@
+{
+  "filters": [
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-r",
+      "isEnabled": true,
+      "name": "Remux",
+      "pattern": "(?i)\\bremux\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-b",
+      "isEnabled": true,
+      "name": "BluRay",
+      "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-w",
+      "isEnabled": true,
+      "name": "WebDL",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|webrip|web-rip)\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gr",
+      "id": "r-4k",
+      "isEnabled": true,
+      "name": "4K",
+      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gr",
+      "id": "r-1080",
+      "isEnabled": true,
+      "name": "1080p",
+      "pattern": "(?i)\\b1080[pi]?\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gr",
+      "id": "r-720",
+      "isEnabled": true,
+      "name": "720p",
+      "pattern": "(?i)\\b720[pi]?\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    }
+  ],
+  "groups": [
+  {
+      "borderColor": "#FF858283",
+      "color": "#FFBE01",
+      "id": "gr",
+      "isExpanded": true,
+      "name": "Resolution"
+    },
+    {
+      "borderColor": "#FF00FF37",
+      "color": "#27C04F",
+      "id": "gq",
+      "isExpanded": true,
+      "name": "Quality"
+    }
+  ]
+}
