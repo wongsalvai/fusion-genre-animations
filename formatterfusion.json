@@ -58,7 +58,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-remux.png",
       "isEnabled": true,
       "name": "REMUX",
-      "pattern": "(?i)(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50))",
+      "pattern": "(?i)\\b(?:remux|blu.?ray.?remux|bluray.?remux|bdremux|uhd\\s?(?:bd)?\\s?remux|bdrip\\s?remux)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
