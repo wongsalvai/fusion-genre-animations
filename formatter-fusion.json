@@ -152,7 +152,7 @@
       "pattern": "(?i)^(?=.*\\bhdr(?:[\\s._-]?10)?\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b).+",
       "tagColor": "#474747",
       "tagStyle": "filled",
-      "textColor": "FFFFFF",
+      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
@@ -267,9 +267,9 @@
   "isEnabled": true,
   "name": "7.1",
   "pattern": "(?i)\\b7\\.?1(?!\\d)\\b",
-      "tagColor": "#474747",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
   "type": "filter"
 },
     {
@@ -394,19 +394,27 @@
       "isExpanded": true,
       "name": "Quality"
     },
-    {
-      "borderColor": "#00000000",
-      "color": "#45B7D1",
-      "id": "ga",
-      "isExpanded": true,
-      "name": "Audio"
-    },
+
     {
       "borderColor": "#FF858283",
       "color": "#FF6B6B",
       "id": "gv",
       "isExpanded": true,
       "name": "Visual"
+    },
+        {
+      "borderColor": "#00000000",
+      "color": "#45B7D1",
+      "id": "ga",
+      "isExpanded": true,
+      "name": "Audio"
+    },
+       {
+      "borderColor": "#00000000",
+      "color": "#FFD700",
+      "id": "gc",
+      "isExpanded": true,
+      "name": "Channels"
     },
         {
       "id": "editions",
