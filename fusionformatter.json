@@ -264,7 +264,7 @@
   "borderColor": "#00000000",
   "groupId": "ga",
   "id": "a-stereo-fallback",
-
+  "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/blog-titelbild-dolby-1500x800-1-removebg-preview.png",  
   "isEnabled": true,
   "name": "Stereo",
   "pattern": "(?i)^(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*\\bdts[-_. ]?(?:hd|ma|x|xll)?\\b)(?!.*\\bddp\\b)(?!.*\\bdd\\+\\b)(?!.*\\beac-?3\\b)(?!.*\\bac-?3\\b).+",
