@@ -175,7 +175,7 @@
       "pattern": "(?i)^(?=.*\\bhdr(?:[\\s._-]?10)?\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b).+",
       "tagColor": "#474747",
       "tagStyle": "filled",
-      "textColor": "#FFFFFF",
+      "textColor": "FFFFFF",
       "type": "filter"
     },
     {
@@ -183,11 +183,11 @@
   "groupId": "editions",
   "id": "e-extended",
   "isEnabled": true,
-  "name": "🎬 𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
+  "name": "𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
-  "textColor": "#b3e5fc",
+  "tagStyle": "filled",
+  "textColor": "FFFFFF",
   "type": "filter"
 },
 {
@@ -195,7 +195,7 @@
   "groupId": "editions",
   "id": "e-directors",
   "isEnabled": true,
-  "name": "🎥 𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
+  "name": "𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
   "tagColor": "#474747",
   "tagStyle": "bordered",
@@ -241,10 +241,10 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-20",
+  "id": "b-20-bitrate",
   "isEnabled": true,
   "name": "ᯓ",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:web[-_]?dl|webrip|web)\\b.*(?:2160|4k|uhd))|(?:(?:2160|4k|uhd).*\\b(?:web[-_]?dl|webrip|web)\\b)",
+  "pattern": "(?i)^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#edeaca",
@@ -253,13 +253,25 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-under20",
+  "id": "b-under20-bitrate",
   "isEnabled": true,
   "name": "ᯤ",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?:^(?!.*(?:2160|4k|uhd|remux)).*\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b)",
+  "pattern": "(?i)^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#d4edca",
+  "type": "filter"
+},
+{
+  "borderColor": "#FF00E1FF",
+  "groupId": "gb",
+  "id": "b-4k-web-fallback",
+  "isEnabled": true,
+  "name": "ᯓ",
+  "pattern": "(?i)\\b(?:web[-_]?dl|webrip|web)\\b(?=.*(?:2160|4k|uhd))|\\b(?:2160|4k|uhd)\\b(?=.*\\b(?:web[-_]?dl|webrip|web)\\b)",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
+  "textColor": "#edeaca",
   "type": "filter"
 }
     ],
