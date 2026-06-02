@@ -205,10 +205,10 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-80",
+  "id": "bit-4kremux",
   "isEnabled": true,
   "name": "⚡︎",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[8-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps\\b)|(?=.*\\bremux\\b)(?=.*(?:2160|4k|uhd))\\b(?:remux|bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b",
+  "pattern": "(?i)(?:(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b).+)|(?:(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50)))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#f7adad",
@@ -217,10 +217,10 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-60",
+  "id": "bit-4kbluray",
   "isEnabled": true,
   "name": "⚡︎",
-  "pattern": "(?i)^(?:[^•\\n]*•)?\\s*\\b[6-7]\\d(?:\\.\\d)?\\s?Mbps\\b",
+  "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b)(?=.*\\b(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50|bd)\\b)(?!.*remux).+",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#f0d0b9",
@@ -229,10 +229,10 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-40",
+  "id": "bit-fhdremux",
   "isEnabled": true,
   "name": "ᯓ",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[4-5]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?=.*(?:2160|4k|uhd))(?!.*\\bremux\\b)\\b(?:bluray|bdrip|brrip)\\b",
+  "pattern": "(?i)(?=.*\\b1080[pi]?\\b)(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#fcefdc",
@@ -241,10 +241,10 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-20-bitrate",
+  "id": "bit-4kweb",
   "isEnabled": true,
   "name": "ᯓ",
-  "pattern": "(?i)^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b",
+  "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b)(?=.*(?:WEB[-_. ]DL(?:mux)?|WEBDL|WebRip|Web-Rip|WEBMux|(?:720|1080|2160)p[-. ]WEB[-. ]|[-. ]WEB[-. ](?:720|1080|2160)p|(?:AMZN|NF|DP)[. -]WEB[. -])).+",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#edeaca",
@@ -253,39 +253,15 @@
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
-  "id": "b-under20-bitrate",
+  "id": "bit-fhdweb",
   "isEnabled": true,
   "name": "ᯤ",
-  "pattern": "(?i)^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b",
+  "pattern": "(?i)(?=.*(?:1080[pi]?|720[pi]?|480p|480i|sd|dvd.?rip|dvdrip|dvd rip|dvd-rip|576p|852x480|848x480|854x480)\\b)(?=.*(?:WEB[-_. ]DL(?:mux)?|WEBDL|WebRip|Web-Rip|WEBMux|(?:720|1080|2160)p[-. ]WEB[-. ]|[-. ]WEB[-. ](?:720|1080|2160)p|(?:AMZN|NF|DP)[. -]WEB[. -])).+",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#d4edca",
   "type": "filter"
 },
-{
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "b-4k-web-fallback",
-  "isEnabled": true,
-  "name": "ᯓ",
-  "pattern": "(?i)\\b(?:web[-_]?dl|webrip|web)\\b(?=.*(?:2160|4k|uhd))|\\b(?:2160|4k|uhd)\\b(?=.*\\b(?:web[-_]?dl|webrip|web)\\b)",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#edeaca",
-  "type": "filter"
-},
-    {
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "b-hd-fallback",
-  "isEnabled": true,
-  "name": "ᯤ",
-  "pattern": "(?i)^(?!.*(?:2160|4k|uhd|remux)).*\\b(?:1080p|720p|bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#d4edca",
-  "type": "filter"
-}
     ],
   "groups": [
     {
