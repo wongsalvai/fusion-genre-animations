@@ -360,42 +360,6 @@
   "textColor": "#CFF5D2",
   "type": "filter"
 },
-  {
-      "borderColor": "#00000000",
-      "groupId": "gl",
-      "id": "l-pl",
-      "isEnabled": true,
-      "name": "🇵🇱",
-      "pattern": "(?i)(\\bpolish\\b|\\bpolska\\b|\\bnapisy\\s?pl\\b|\\bsub(?:titles)?\\s?pl\\b|\\b\\[pl\\]\\b|\\bpl\\b)(?!.*\\bmulti\\b)",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#80FFFFFF",
-      "type": "filter"
-    },
-   {
-      "borderColor": "#00000000",
-      "groupId": "gl",
-      "id": "l-mu",
-      "isEnabled": true,
-      "name": "🌐",
-      "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#80FFFFFF",
-      "type": "filter"
-    },
-        {
-      "borderColor": "#00000000",
-      "groupId": "gl",
-      "id": "l-en",
-      "isEnabled": true,
-      "name": "🇬🇧",
-      "pattern": "(?i)^(?!.*\\bmulti\\b)(?!.*\\b(polish|polska|\\[pl\\]|napisy\\s?pl|sub(?:titles)?\\s?pl)\\b).*(\\benglish\\b|\\beng\\b|\\ben\\b).*",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#80FFFFFF",
-      "type": "filter"
-    }
     ],
   "groups": [
     {
@@ -438,13 +402,7 @@
       "id": "editions",
       "isExpanded": true,
       "name": "editions"
-    },
-    {
-      "borderColor": "#00000000",
-      "color": "#4ECDC4",
-      "id": "gl",
-      "isExpanded": true,
-      "name": "Language"
     }
+
   ]
 }
