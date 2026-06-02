@@ -178,7 +178,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     }
-
   ],
   "groups": [
     {
@@ -209,12 +208,5 @@
       "isExpanded": true,
       "name": "Visual"
     },
-    {
-      "borderColor": "#FF00E1FF",
-      "color": "#00E1FF",
-      "id": "gb",
-      "isExpanded": true,
-      "name": "Bitrate"
-    }
   ]
 }
