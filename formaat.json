@@ -233,7 +233,7 @@
   "isEnabled": true,
   "name": "ᯓ",
   "id": "bit-fhdremux",
-  "pattern": "(?i)(?=.*(?:1080p))(?=.*(?:remux|blu.?ray.*remux|uhd.*bd.*remux|uhdbdremux|bd.*remux))(?!.*web)(?!.*bluray).*",
+  "pattern": "(?i)(?=.*1080p)(?=.*(?:bluray))(?!.*(?:remux|web)).*(?=.*(?:x265|10-bit|hdr))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#fcefdc",
