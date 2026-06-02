@@ -242,8 +242,8 @@
   "isEnabled": true,
   "name": "𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
+  "tagColor": "#474747",
+  "tagStyle": "bordered,
   "textColor": "#FFFFFF",
   "type": "filter"
 },
@@ -254,8 +254,8 @@
   "isEnabled": true,
   "name": "𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
+  "tagColor": "#474747",
+  "tagStyle": "bordered",
   "textColor": "#FFFFFF",
   "type": "filter"
 },
