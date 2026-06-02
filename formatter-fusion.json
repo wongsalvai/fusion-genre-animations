@@ -208,7 +208,7 @@
       "id": "b-40",
       "isEnabled": true,
       "name": "⦾ 𝟺𝟶-𝟼𝟶 𝙼𝚋𝚙𝚜",
-      "pattern": "(?i)^(?:[^•\\n]*•)?\\s*\\b[4-5]\\d(?:\\.\\d)?\\s?Mbps\\b",
+      "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[4-5]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:bluray|bdrip|brrip)\\b(?!.*remux)(?=.*\\b(?:2160p|4k|uhd)\\b)(?!.*\\b(?:[2-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps\\b))",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFAA00",
