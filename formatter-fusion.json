@@ -260,27 +260,31 @@
 
 },
 {
-  "borderColor": "#00000000",
-  "groupId": "lang",
-  "id": "l-pl",
-  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/pl.png",
-  "isEnabled": true,
-  "name": "PL",
-  "pattern": "(?i)(\\bpolish\\b|\\bpolska\\b|\\bnapisy\\s?pl\\b|\\bsub(?:titles)?\\s?pl\\b|\\b\\[pl\\]\\b|\\bpl\\b)(?!.*\\bmulti\\b)",
-  "textColor": "#FFFFFF",
-  "type": "filter"
-},
-    {
-  "borderColor": "#00000000",
-  "groupId": "lang",
-  "id": "l-multi",
-  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/multi.png",
-  "isEnabled": true,
-  "name": "MULTI",
-  "pattern": "(?i)(\\bmulti\\b|\\bmulti\\s?lang\\b|\\bdual\\s?audio\\b)(?!.*\\bpl\\b|.*\\bpolish\\b|.*\\bnapisy\\s?pl\\b)",
-  "textColor": "#FFFFFF",
-  "type": "filter"
-},
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-pl",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🇵🇱",
+      "pattern": "(?i)(\\bpolish\\b|\\bpolska\\b|\\bnapisy\\s?pl\\b|\\bsub(?:titles)?\\s?pl\\b|\\b\\[pl\\]\\b|\\bpl\\b)(?!.*\\bmulti\\b)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    },
+   {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-mu",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🌐",
+      "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    }
     ],
   "groups": [
     {
