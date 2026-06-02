@@ -88,45 +88,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-imax",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
-      "isEnabled": true,
-      "name": "IMAX",
-      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "gv",
-      "id": "a-dv",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
-      "isEnabled": true,
-      "name": "DV",
-      "pattern": "(?i)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\b(?:dd[25][. ][01]|dd[^p+a-z]\\b|\\bac-?3)\\b).+",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-hdr10",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
-      "isEnabled": true,
-      "name": "HDR10",
-      "pattern": "(?i)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?=.*\\bhdr(?:[\\s._-]?10)?\\b)(?!.*\\bhdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p)\\b).+",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-th-dv",
@@ -177,6 +138,45 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gv",
+      "id": "v-imax",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
+      "isEnabled": true,
+      "name": "IMAX",
+      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "a-dv",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
+      "isEnabled": true,
+      "name": "DV",
+      "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b(?!.*\\b(?:true[\\s._-]?hd|atmos)\\b)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gv",
+      "id": "v-hdr10",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR10.png",
+      "isEnabled": true,
+      "name": "HDR10",
+      "pattern": "(?i)\\bhdr(?:[\\s._-]?10)?\\b(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision|true[\\s._-]?hd|atmos)\\b)(?!.*\\bhdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p)\\b)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     }
   ],
   "groups": [
@@ -195,18 +195,18 @@
       "name": "Quality"
     },
     {
-      "borderColor": "#FF858283",
-      "color": "#FF6B6B",
-      "id": "gv",
-      "isExpanded": true,
-      "name": "Visual"
-    },
-    {
       "borderColor": "#00000000",
       "color": "#45B7D1",
       "id": "ga",
       "isExpanded": true,
       "name": "Audio"
+    },
+    {
+      "borderColor": "#FF858283",
+      "color": "#FF6B6B",
+      "id": "gv",
+      "isExpanded": true,
+      "name": "Visual"
     }
   ]
 }
