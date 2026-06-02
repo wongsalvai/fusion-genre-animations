@@ -178,8 +178,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-{
-  "filters": [
     {
       "borderColor": "#FF00E1FF",
       "groupId": "gb",
@@ -240,19 +238,7 @@
       "textColor": "#00FF00",
       "type": "filter"
     }
-  ],
-  "groups": [
-    {
-      "borderColor": "#FF00E1FF",
-      "color": "#00E1FF",
-      "id": "gb",
-      "canMatchMultiple": false,
-      "isExpanded": true,
-      "name": "Bitrate"
-    }
-  ]
-}
-  ],
+    ],
   "groups": [
     {
       "borderColor": "#FF858283",
@@ -286,8 +272,9 @@
       "borderColor": "#FF00E1FF",
       "color": "#00E1FF",
       "id": "gb",
+      "canMatchMultiple": false,
       "isExpanded": true,
       "name": "Bitrate"
-    },
+    }
   ]
 }
