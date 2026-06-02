@@ -220,10 +220,10 @@
   "id": "b-20",
   "isEnabled": true,
   "name": "ᯓ𝟸𝟶-𝟺𝟶",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:web[-_]?dl|webrip|web)\\b(?!.*remux)(?=.*(?:2160|4k|uhd)))",
+  "pattern": "(?i)(?![^\\n]*\\bremux\\b)(?:(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?:(?=[^\\n]*(?:2160|4k|uhd))\\b(?:web[-_]?dl|webrip|web)\\b))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
-  "textColor": "#f0edd5",
+  "textColor": "#edeaca",
   "type": "filter"
 },
 {
@@ -232,10 +232,10 @@
   "id": "b-under20",
   "isEnabled": true,
   "name": "ᯤ<𝟸𝟶",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?![^\\n]*(?:[2-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps)(?:\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b(?!.*remux)(?![^\\n]*(?:2160|4k|uhd)))",
+  "pattern": "(?i)(?![^\\n]*\\bremux\\b)(?![^\\n]*(?:2160|4k|uhd))(?:(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?![^\\n]*(?:[2-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps)\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b)",
   "tagColor": "#00000000",
   "tagStyle": "filled",
-  "textColor": "#ddf0d5",
+  "textColor": "#d4edca",
   "type": "filter"
 }
     ],
