@@ -184,13 +184,13 @@
   "id": "b-80",
   "isEnabled": true,
   "name": "⚡︎𝟾𝟶+",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[8-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps\\b)|(?=.*\\bremux\\b)(?=.*(?:2160|4k|uhd))",
+  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[8-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps\\b)|(?=.*\\bremux\\b)(?=.*(?:2160|4k|uhd))\\b(?:remux|bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#f7adad",
   "type": "filter"
 },
-   {
+{
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
   "id": "b-60",
@@ -202,13 +202,13 @@
   "textColor": "#f0d0b9",
   "type": "filter"
 },
-    {
+{
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
   "id": "b-40",
   "isEnabled": true,
   "name": "ᯓ𝟺𝟶-𝟼𝟶",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[4-5]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?=.*(?:2160|4k|uhd))(?=.*\\b(?:bluray|bdrip|brrip)\\b)(?!.*\\bremux\\b)",
+  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[4-5]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?=.*(?:2160|4k|uhd))(?!.*\\bremux\\b)\\b(?:bluray|bdrip|brrip)\\b",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#fcefdc",
@@ -220,19 +220,19 @@
   "id": "b-20",
   "isEnabled": true,
   "name": "⦾ 𝟸𝟶-𝟺𝟶 𝙼𝚋𝚙𝚜",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?=.*(?:2160|4k|uhd))(?=.*\\b(?:web[-_]?dl|webrip|web)\\b)(?!.*\\bremux\\b)",
+  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?=.*(?:2160|4k|uhd))(?!.*\\bremux\\b)\\b(?:web[-_]?dl|webrip|web)\\b",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#FFFF00",
   "type": "filter"
 },
-    {
+{
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
   "id": "b-under20",
   "isEnabled": true,
   "name": "⦾ <𝟸𝟶 𝙼𝚋𝚙𝚜",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?!(?:.*(?:2160|4k|uhd)))(?=.*\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b)(?!.*\\bremux\\b)",
+  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?!.*(?:2160|4k|uhd))(?!.*\\bremux\\b)\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#00FF00",
