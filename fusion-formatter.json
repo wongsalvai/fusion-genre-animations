@@ -264,7 +264,7 @@
   "borderColor": "#00000000",
   "groupId": "ga",
   "id": "a-stereo-fallback",
-  "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/daudio.png",  
+  "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/audioda.png",  
   "isEnabled": true,
   "name": "Stereo",
   "pattern": "(?i)^(?!.*\\b(true[\\s._-]?hd|atmos|dts[-_. ]?(?:hd|ma|x|xll)?|ddp|dd\\+|eac-?3|ac-?3)\\b).+",
