@@ -95,7 +95,7 @@
       "isEnabled": true,
       "name": "IMAX",
       "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
-      "tagColor": "#FF6B6B",
+      "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -108,8 +108,8 @@
       "isEnabled": true,
       "name": "TrueHD+DV",
       "pattern": "(?i)(?=.*\\btrue[\\s._-]?hd\\b)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b).+",
-      "tagColor": "#FF6B6B",
-      "tagStyle": "filled and bordered",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -121,8 +121,8 @@
       "isEnabled": true,
       "name": "Atmos+DV",
       "pattern": "(?i)^(?=.*\\batmos\\b)(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b).+",
-      "tagColor": "#FF6B6B",
-      "tagStyle": "filled and bordered",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -134,7 +134,7 @@
       "isEnabled": true,
       "name": "TrueHD",
       "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b).+",
-      "tagColor": "#FF6B6B",
+      "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -147,7 +147,7 @@
       "isEnabled": true,
       "name": "Atmos",
       "pattern": "(?i)^(?=.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b).+",
-      "tagColor": "#FF6B6B",
+      "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -160,7 +160,7 @@
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b).+",
-      "tagColor": "#FF6B6B",
+      "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -173,7 +173,7 @@
       "isEnabled": true,
       "name": "HDR10",
       "pattern": "(?i)^(?=.*\\bhdr(?:[\\s._-]?10)?\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b).+",
-      "tagColor": "#FF6B6B",
+      "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -219,11 +219,11 @@
   "groupId": "gb",
   "id": "b-20",
   "isEnabled": true,
-  "name": "⦾ 𝟸𝟶-𝟺𝟶 𝙼𝚋𝚙𝚜",
+  "name": "⦾𝟸𝟶-𝟺𝟶",
   "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:web[-_]?dl|webrip|web)\\b(?!.*remux)(?=.*(?:2160|4k|uhd)))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
-  "textColor": "#f7fae1",
+  "textColor": "#FFFF00",
   "type": "filter"
 },
 {
@@ -231,11 +231,11 @@
   "groupId": "gb",
   "id": "b-under20",
   "isEnabled": true,
-  "name": "⦾ <𝟸𝟶 𝙼𝚋𝚙𝚜",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b(?!.*remux)(?![^\\n]*(?:2160|4k|uhd)))",
+  "name": "⦾<𝟸𝟶",
+  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b(?!.*remux)(?![^\\n]*(?:2160|4k|uhd)))|^(?!.*(?:2160|4k|uhd))(?!.*\\bremux\\b).*(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)",
   "tagColor": "#00000000",
   "tagStyle": "filled",
-  "textColor": "#e7fae1",
+  "textColor": "#00FF00",
   "type": "filter"
 }
     ],
