@@ -87,6 +87,19 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
+        {
+      "borderColor": "#FF858283",
+      "groupId": "gv",
+      "id": "v-imax",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
+      "isEnabled": true,
+      "name": "IMAX",
+      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -140,19 +153,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-imax",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
-      "isEnabled": true,
-      "name": "IMAX",
-      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
       "borderColor": "#00000000",
       "groupId": "gv",
       "id": "a-dv",
@@ -176,6 +176,42 @@
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF00E1FF",
+      "groupId": "gb",
+      "id": "b-ultra",
+      "isEnabled": true,
+      "name": "🔥 Top Bitrate",
+      "pattern": "(?i)\\b(?:[5-9]\\d|1\\d\\d)(?:\\.\\d)?\\s?Mbps\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled",
+      "textColor": "#FF5555",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF00E1FF",
+      "groupId": "gb",
+      "id": "b-high",
+      "isEnabled": true,
+      "name": "⚡ High Bitrate",
+      "pattern": "(?i)\\b(?:[2-4]\\d)(?:\\.\\d)?\\s?Mbps\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled",
+      "textColor": "#FFAA00",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF00E1FF",
+      "groupId": "gb",
+      "id": "b-eco",
+      "isEnabled": true,
+      "name": "📉 Eco Bitrate",
+      "pattern": "(?i)\\b(?:\\d|[1-9])(?:\\.\\d)?\\s?Mbps\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled",
+      "textColor": "#00FF00",
       "type": "filter"
     }
   ],
@@ -207,6 +243,13 @@
       "id": "gv",
       "isExpanded": true,
       "name": "Visual"
+    },
+    {
+      "borderColor": "#FF00E1FF",
+      "color": "#00E1FF",
+      "id": "gb",
+      "isExpanded": true,
+      "name": "Bitrate"
     }
   ]
 }
