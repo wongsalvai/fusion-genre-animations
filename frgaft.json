@@ -4,7 +4,7 @@
       "borderColor": "#FF858283",
       "groupId": "gr",
       "id": "r-4k",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png"
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png",
       "isEnabled": true,
       "name": "4K",
       "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b).+",
@@ -17,7 +17,7 @@
       "borderColor": "#FF858283",
       "groupId": "gr",
       "id": "r-1080",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/fhd.png"
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/fhd.png",
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)\\b1080[pi]?\\b",
