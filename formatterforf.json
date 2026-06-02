@@ -208,7 +208,7 @@
   "id": "bit-4kremux",
   "isEnabled": true,
   "name": "⚡︎",
-  "pattern": "(?i)(?:(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b).+)|(?:(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50)))",
+  "pattern": "(?i)(?:(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b)(?!.*(?:web[-_. ]dl|webrip|web)).+)|(?:(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50))(?!.*(?:web[-_. ]dl|webrip|web)))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#f7adad",
@@ -220,7 +220,7 @@
   "id": "bit-4kbluray",
   "isEnabled": true,
   "name": "⚡︎",
-  "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b)(?=.*\\b(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50|bd)\\b)(?!.*remux).+",
+  "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b)(?=.*\\b(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50|bd)\\b)(?!.*remux)(?!.*(?:web[-_. ]dl|webrip|web)).+",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#f0d0b9",
@@ -232,7 +232,7 @@
   "id": "bit-fhdremux",
   "isEnabled": true,
   "name": "ᯓ",
-  "pattern": "(?i)(?=.*\\b1080[pi]?\\b)(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50))",
+  "pattern": "(?i)(?=.*\\b1080[pi]?\\b)(?:^|[\\s._-])(?:remux|blu.?ray.?remux|bluray.?remux|blu-ray.?remux|bdremux|bd[\\s._-]?remux|uhd[\\s._-]?remux|uhdbdremux|uhd-bdremux|uhdblu.?ray.?remux|bdrip.?remux)(?:$|[\\s._-])(?!.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50))(?!.*(?:web[-_. ]dl|webrip|web))",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#fcefdc",
@@ -261,7 +261,7 @@
   "tagStyle": "filled",
   "textColor": "#d4edca",
   "type": "filter"
-},
+}
     ],
   "groups": [
     {
