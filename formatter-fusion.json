@@ -234,8 +234,44 @@
       "type": "filter"
     },
 
-{
-
+    {
+  "borderColor": "#474747",
+  "groupId": "channels",
+  "id": "ch-7.1",
+  "isEnabled": true,
+  "name": "7.1",
+  "pattern": "(?i)\\b7\\.?1(?!\\d)\\b",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
+  "type": "filter"
+},
+    {
+  "borderColor": "#474747",
+  "groupId": "channels",
+  "id": "ch-5.1",
+  "isEnabled": true,
+  "name": "5.1",
+  "pattern": "(?i)\\b5\\.?1(?!\\d)\\b",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
+  "type": "filter"
+    },
+    {
+  "borderColor": "#474747",
+  "groupId": "channels",
+  "id": "ch-2.0",
+  "isEnabled": true,
+  "name": "2.0",
+  "pattern": "(?i)\\b(stereo|2\\.?0(?!\\d))\\b",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
+  "type": "filter"
+},
+    {
+  "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-extended",
   "isEnabled": true,
@@ -247,6 +283,7 @@
   "type": "filter"
 },
 {
+  "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-directors",
   "isEnabled": true,
@@ -257,7 +294,7 @@
   "textColor": "#FFFFFF",
   "type": "filter"
 },
-{
+  {
       "borderColor": "#00000000",
       "groupId": "gl",
       "id": "l-pl",
