@@ -6,7 +6,7 @@
       "id": "r-4k",
       "isEnabled": true,
       "name": "4K",
-      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "pattern": "(?i)\\b(?:2160[pi]?|4k|uhd)\\b(?!.*(?:1080[pi]?|720[pi]?))"
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
