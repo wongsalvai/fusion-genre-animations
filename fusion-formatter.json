@@ -258,7 +258,21 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
+      
     },
+    {
+  "borderColor": "#00000000",
+  "groupId": "ga",
+  "id": "a-stereo-fallback",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/stereo.png",
+  "isEnabled": true,
+  "name": "Stereo",
+  "pattern": "(?i)^(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)(?!.*\\bdts[-_. ]?(?:hd|ma|x|xll)?\\b)(?!.*\\bddp\\b)(?!.*\\bdd\\+\\b)(?!.*\\beac-?3\\b)(?!.*\\bac-?3\\b).+",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
+  "type": "filter"
+}
     {
   "borderColor": "#474747",
   "groupId": "gc",
@@ -294,7 +308,7 @@
   "name": "ᴇxᴛᴇɴᴅᴇᴅ",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
+  "tagStyle": "filled",
   "textColor": "#F2C6A0",
   "type": "filter"
 },
@@ -365,6 +379,18 @@
       "isEnabled": true,
       "name": "🌐",
       "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    },
+        {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-en",
+      "isEnabled": true,
+      "name": "🇬🇧",
+      "pattern": "(?i)^(?!.*\\bmulti\\b)(?!.*\\b(polish|polska|\\[pl\\]|napisy\\s?pl|sub(?:titles)?\\s?pl)\\b).*(\\benglish\\b|\\beng\\b|\\ben\\b).*",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#80FFFFFF",
