@@ -4,6 +4,7 @@
       "borderColor": "#FF858283",
       "groupId": "gr",
       "id": "r-4k",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/4k.png"
       "isEnabled": true,
       "name": "4K",
       "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|2016[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b).+",
@@ -16,6 +17,7 @@
       "borderColor": "#FF858283",
       "groupId": "gr",
       "id": "r-1080",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/fhd.png"
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)\\b1080[pi]?\\b",
@@ -153,6 +155,30 @@
       "type": "filter"
     },
     {
+  "id": "a-dtsx",
+  "groupId": "ga",
+  "name": "DTS:X",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtsx.png",
+  "pattern": "(?i)dts[\\s._-]?x",
+  "isEnabled": true
+},
+    {
+  "id": "a-dtshdma",
+  "groupId": "ga",
+  "name": "DTS-HD MA",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshd.png",
+  "pattern": "(?i)dts[\\s._-]?hd[\\s._-]?(ma|master audio)?",
+  "isEnabled": true
+},
+    {
+  "id": "a-dts",
+  "groupId": "ga",
+  "name": "DTS",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dts.png",
+  "pattern": "(?i)\\bdts\\b(?![\\s._-]?x|[\\s._-]?hd)",
+  "isEnabled": true
+},
+    {
       "borderColor": "#00000000",
       "groupId": "gv",
       "id": "a-dv",
@@ -202,79 +228,6 @@
   "textColor": "#ffffff",
   "type": "filter"
 },
-{
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "bit-4kremux",
-  "isEnabled": true,
-  "name": "⚡︎",
-  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:remux|uhd.*bd.*remux|uhdbdremux|bd.*remux|blu.?ray.*remux))(?=.*(?:2160p|4k|uhd)).*",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#f7adad",
-  "type": "filter"
-},
-{
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "bit-4kbluray",
-  "isEnabled": true,
-  "name": "⚡︎",
- "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50))(?=.*(?:2160p|4k|uhd)).*",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#f0d0b9",
-  "type": "filter"
-},
-{
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "bit-fhdremux",
-  "isEnabled": true,
-  "name": "ᯓ",
-  "id": "bit-fhdremux",
-  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*1080p)(?=.*(?:remux|blu.?ray.*remux|uhd.*bd.*remux|uhdbdremux|bd.*remux)).*",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#fcefdc",
-  "type": "filter"
-},
-{
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "bit-4kweb",
-  "isEnabled": true,
-  "name": "ᯓ",
-  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:web[-_. ]?dl|webrip|webmux|web))(?=.*(?:2160p|4k|uhd)).*",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#edeaca",
-  "type": "filter"
-},
-    {
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "bit-fhdbluray",
-  "isEnabled": true,
-  "name": "ᯤ",
-  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:1080p|720p))(?=.*(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50)).*",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#cfd8dc",
-  "type": "filter"
-},
-{
-  "borderColor": "#FF00E1FF",
-  "groupId": "gb",
-  "id": "bit-fhdweb",
-  "isEnabled": true,
-  "name": "ᯤ",
-  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:1080p|720p|480p|sd))(?=.*(?:web[-_. ]?dl|webrip|webmux|web)).*",
-  "tagColor": "#00000000",
-  "tagStyle": "filled",
-  "textColor": "#d4edca",
-  "type": "filter"
-}
     ],
   "groups": [
     {
@@ -312,13 +265,5 @@
       "isExpanded": true,
       "name": "editions"
     },
-    {
-      "borderColor": "#FF00E1FF",
-      "color": "#00E1FF",
-      "id": "gb",
-      "canMatchMultiple": false,
-      "isExpanded": true,
-      "name": "Bitrate"
-    }
   ]
 }
