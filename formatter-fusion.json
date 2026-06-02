@@ -236,11 +236,10 @@
 
 {
 
-  "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-extended",
   "isEnabled": true,
-  "name": "𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
+  "name": "ᴇxᴛᴇɴᴅᴇᴅ",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
   "tagStyle": "bordered",
@@ -248,11 +247,10 @@
   "type": "filter"
 },
 {
-  "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-directors",
   "isEnabled": true,
-  "name": "𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
+  "name": "ᴅɪʀᴇᴄᴛᴏʀs's ᴄᴜᴛ",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
   "tagColor": "#474747",
   "tagStyle": "bordered",
