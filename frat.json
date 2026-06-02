@@ -208,7 +208,7 @@
   "id": "bit-4kremux",
   "isEnabled": true,
   "name": "⚡︎",
-  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:remux|uhd.*bd.*remux|uhdbdremux|bd.*remux|blu.?ray.*remux))(?=.*(?:2160p|4k|uhd)).*"
+  "pattern": "(?i)(?=.*(?:x265|x264|10-bit|hdr|hdr10|dv|dovi)).*(?=.*(?:remux|uhd.*bd.*remux|uhdbdremux|bd.*remux|blu.?ray.*remux))(?=.*(?:2160p|4k|uhd)).*",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#f7adad",
