@@ -214,13 +214,13 @@
       "textColor": "#FFAA00",
       "type": "filter"
     },
-    {
+{
       "borderColor": "#FF00E1FF",
       "groupId": "gb",
       "id": "b-20",
       "isEnabled": true,
       "name": "⦾ 𝟸𝟶-𝟺𝟶 𝙼𝚋𝚙𝚜",
-      "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:web[-_]?dl|webrip|web)\\b(?!.*remux)(?=.*(?:2160[pi]?|4k|uhd)))",
+      "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b[2-3]\\d(?:\\.\\d)?\\s?Mbps\\b)|(^(?!.*\\bremux\\b)(?=.*(?:2160[pi]?|4k|uhd))(?=.*\\b(?:web[-_]?dl|webrip|web)\\b).*)",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFF00",
@@ -232,7 +232,7 @@
       "id": "b-under20",
       "isEnabled": true,
       "name": "⦾ <𝟸𝟶 𝙼𝚋𝚙𝚜",
-      "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b(?!.*remux)(?!.*(?:2160[pi]?|4k|uhd)))",
+      "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(^(?!.*\\bremux\\b)(?!.*(?:2160[pi]?|4k|uhd))(?=.*\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b).*)",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#00FF00",
