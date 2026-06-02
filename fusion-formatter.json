@@ -261,7 +261,7 @@
     },
     {
   "borderColor": "#474747",
-  "groupId": "channels",
+  "groupId": "gc",
   "id": "ch-7.1",
   "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/7dot1.png",
   "isEnabled": true,
@@ -274,7 +274,7 @@
 },
     {
   "borderColor": "#474747",
-  "groupId": "channels",
+  "groupId": "gc",
   "id": "ch-5.1",
   "isEnabled": true,
   "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/5dot1.png",
@@ -287,7 +287,7 @@
     },
     {
   "borderColor": "#474747",
-  "groupId": "channels",
+  "groupId": "gc",
   "id": "ch-2.0",
   "isEnabled": true,
   "name": "2.0",
@@ -325,6 +325,7 @@
   "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-theatrical",
+  "isEnabled": true,
   "name": "ᴛʜᴇᴀᴛʀɪᴄᴀʟ",
   "pattern": "(?i)\\btheatrical\\b",
   "tagColor": "#474747",
@@ -336,6 +337,7 @@
   "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-uncut",
+  "isEnabled": true,
   "name": "ᴜɴᴄᴜᴛ",
   "pattern": "(?i)\\b(uncut|uncensored)\\b",
   "tagColor": "#474747",
@@ -347,6 +349,7 @@
   "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-remastered",
+  "isEnabled": true,
   "name": "ʀᴇᴍᴀsᴛᴇʀᴇᴅ",
   "pattern": "(?i)\\bremaster(ed)?\\b",
   "tagColor": "#474747",
@@ -414,7 +417,7 @@
       "color": "#FFD700",
       "id": "gc",
       "isExpanded": true,
-      "name": "Channels"
+      "name": "channels"
     },
         {
       "id": "editions",
