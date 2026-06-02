@@ -68,7 +68,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-bluray.png",
       "isEnabled": true,
       "name": "BLURAY",
-      "pattern": "(?i)(?:^|[\\s._-])(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50)(?:$|[\\s._-])(?!.*remux)",
+      "pattern": "(?i)\\b(?:bluray|blu.?ray|bdrip|brrip|bd25|bd50|bd)\\b(?!.*remux)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
