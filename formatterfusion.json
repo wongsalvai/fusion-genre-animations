@@ -280,7 +280,7 @@
   "pattern": "(?i)(\\bmulti\\b|\\bmulti\\s?lang\\b|\\bdual\\s?audio\\b)(?!.*\\bpl\\b|.*\\bpolish\\b|.*\\bnapisy\\s?pl\\b)",
   "textColor": "#FFFFFF",
   "type": "filter"
-}
+},
     ],
   "groups": [
     {
