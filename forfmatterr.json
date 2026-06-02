@@ -178,6 +178,58 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
+{
+      "borderColor": "#FF858283",
+      "groupId": "ga",
+      "id": "a-dtsx",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtsx.png",
+      "isEnabled": true,
+      "name": "DTS:X",
+      "pattern": "(?i)\\bdts[-_.: ]?x\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "ga",
+      "id": "a-dtsma",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshdma.png",
+      "isEnabled": true,
+      "name": "DTS-HD MA",
+      "pattern": "(?i)^(?=.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "ga",
+      "id": "a-dtshd",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshd.png",
+      "isEnabled": true,
+      "name": "DTS-HD",
+      "pattern": "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "ga",
+      "id": "a-dts",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dts.png",
+      "isEnabled": true,
+      "name": "DTS",
+      "pattern": "(?i)^(?=.*\\bDTS\\b)(?!.*\\bdts[-_. ]?(?:hd|ma|xll|x)\\b)",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
 
     {
   "borderColor": "#FF00E1FF",
