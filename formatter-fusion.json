@@ -267,7 +267,7 @@
   "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/7da.png",  
   "isEnabled": true,
   "name": "Stereo",
-  "pattern": "(?i)^(?!.*\\b(true[\\s._-]?hd|atmos|dts[-_. ]?(?:hd|ma|x|xll)?|ddp|dd\\+|eac-?3|ac-?3)\\b).+",
+  "pattern": "(?i)^(?!.*\\b(true[\\s._-]?hd|atmos|dts[-_. ]?(?:hd|ma|x|xll)?|ddp|dd\\+|eac-?3|ac-?3|5\\.?1|7\\.?1|stereo|2\\.?0)\\b).+",
   "tagColor": "#474747",
   "tagStyle": "filled",
   "textColor": "#FFFFFF",
