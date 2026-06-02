@@ -187,7 +187,7 @@
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
   "tagStyle": "filled",
-  "textColor": "FFFFFF",
+  "textColor": "#FFFFFF",
   "type": "filter"
 },
 {
@@ -198,8 +198,8 @@
   "name": "𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
-  "textColor": "#ffcc80",
+  "tagStyle": "filled",
+  "textColor": "#ffffff",
   "type": "filter"
 },
 {
@@ -272,6 +272,18 @@
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#edeaca",
+  "type": "filter"
+},
+    {
+  "borderColor": "#FF00E1FF",
+  "groupId": "gb",
+  "id": "b-hd-fallback",
+  "isEnabled": true,
+  "name": "ᯤ",
+  "pattern": "(?i)^(?!.*(?:2160|4k|uhd|remux)).*\\b(?:1080p|720p|bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
+  "textColor": "#d4edca",
   "type": "filter"
 }
     ],
