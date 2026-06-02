@@ -235,26 +235,27 @@
     },
 
 {
-  "borderColor": "#FF00E1FF",
+
+  "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-extended",
   "isEnabled": true,
   "name": "𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
-  "tagColor": "#474747",
-  "tagStyle": "bordered",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
   "textColor": "#FFFFFF",
   "type": "filter"
 },
 {
-  "borderColor": "#FF00E1FF",
+  "borderColor": "#474747",
   "groupId": "editions",
   "id": "e-directors",
   "isEnabled": true,
   "name": "𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
-  "tagColor": "#474747",
-  "tagStyle": "bordered",
+  "tagColor": "#00000000",
+  "tagStyle": "filled",
   "textColor": "#FFFFFF",
   "type": "filter"
 },
@@ -315,8 +316,6 @@
       "name": "Visual"
     },
         {
-      "borderColor": "#FF858283",
-      "color": "#FF6B6B",
       "id": "editions",
       "isExpanded": true,
       "name": "editions"
