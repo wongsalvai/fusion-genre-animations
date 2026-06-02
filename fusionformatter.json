@@ -242,7 +242,7 @@
   "name": "𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "filled",
+  "tagStyle": "bordered",
   "textColor": "#FFFFFF",
   "type": "filter"
 },
@@ -254,8 +254,31 @@
   "name": "𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "filled",
+  "tagStyle": "bordered",
   "textColor": "#ffffff",
+  "type": "filter"
+
+}
+{
+  "borderColor": "#00000000",
+  "groupId": "lang",
+  "id": "l-pl",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/pl.png",
+  "isEnabled": true,
+  "name": "PL",
+  "pattern": "(?i)(\\bpolish\\b|\\bpolska\\b|\\bnapisy\\s?pl\\b|\\bsub(?:titles)?\\s?pl\\b|\\b\\[pl\\]\\b|\\bpl\\b)(?!.*\\bmulti\\b)",
+  "textColor": "#FFFFFF",
+  "type": "filter"
+},
+    {
+  "borderColor": "#00000000",
+  "groupId": "lang",
+  "id": "l-multi",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/multi.png",
+  "isEnabled": true,
+  "name": "MULTI",
+  "pattern": "(?i)(\\bmulti\\b|\\bmulti\\s?lang\\b|\\bdual\\s?audio\\b)(?!.*\\bpl\\b|.*\\bpolish\\b|.*\\bnapisy\\s?pl\\b)",
+  "textColor": "#FFFFFF",
   "type": "filter"
 }
     ],
@@ -294,7 +317,13 @@
       "id": "editions",
       "isExpanded": true,
       "name": "editions"
-    }
-
+    },
+    {
+  "borderColor": "#00000000",
+  "color": "#9C27B0",
+  "id": "lang",
+  "isExpanded": true,
+  "name": "Language"
+}
   ]
 }
