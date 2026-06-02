@@ -285,18 +285,7 @@
       "textColor": "#FFFFFF",
   "type": "filter"
     },
-    {
-  "borderColor": "#474747",
-  "groupId": "gc",
-  "id": "ch-2.0",
-  "isEnabled": true,
-  "name": "2.0",
-  "pattern": "(?i)\\b(stereo|2\\.?0(?!\\d))\\b",
-      "tagColor": "#474747",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-  "type": "filter"
-},
+
     {
   "borderColor": "#474747",
   "groupId": "editions",
@@ -306,7 +295,7 @@
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
   "tagStyle": "bordered",
-  "textColor": "#FF6B6B",
+  "textColor": "#F2C6A0",
   "type": "filter"
 },
 {
@@ -317,8 +306,8 @@
   "name": "ᴅɪʀᴇᴄᴛᴏʀs's ᴄᴜᴛ",
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
-  "textColor": "#FF6B6B",
+  "tagStyle": "filled",
+  "textColor": "#D8C7FF",
   "type": "filter"
 },
     {
@@ -329,8 +318,8 @@
   "name": "ᴛʜᴇᴀᴛʀɪᴄᴀʟ",
   "pattern": "(?i)\\btheatrical\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
-  "textColor": "#FF6B6B",
+  "tagStyle": "filled",
+  "textColor": "#B8D8FF",
   "type": "filter"
 },
     {
@@ -341,8 +330,8 @@
   "name": "ᴜɴᴄᴜᴛ",
   "pattern": "(?i)\\b(uncut|uncensored)\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
-  "textColor": "#FF6B6B",
+  "tagStyle": "filled",
+  "textColor": "#FFB3C1",
   "type": "filter"
 },
     {
@@ -353,8 +342,8 @@
   "name": "ʀᴇᴍᴀsᴛᴇʀᴇᴅ",
   "pattern": "(?i)\\bremaster(ed)?\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered",
-  "textColor": "#FF6B6B",
+  "tagStyle": "filled",
+  "textColor": "#CFF5D2",
   "type": "filter"
 },
   {
@@ -365,7 +354,7 @@
       "name": "🇵🇱",
       "pattern": "(?i)(\\bpolish\\b|\\bpolska\\b|\\bnapisy\\s?pl\\b|\\bsub(?:titles)?\\s?pl\\b|\\b\\[pl\\]\\b|\\bpl\\b)(?!.*\\bmulti\\b)",
       "tagColor": "#00000000",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#80FFFFFF",
       "type": "filter"
     },
@@ -377,7 +366,7 @@
       "name": "🌐",
       "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b",
       "tagColor": "#00000000",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#80FFFFFF",
       "type": "filter"
     }
