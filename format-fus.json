@@ -178,6 +178,30 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
+    {
+  "borderColor": "#FF00E1FF",
+  "groupId": "editions",
+  "id": "e-extended",
+  "isEnabled": true,
+  "name": "🎬 𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
+  "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
+  "tagColor": "#474747",
+  "tagStyle": "bordered",
+  "textColor": "#b3e5fc",
+  "type": "filter"
+},
+{
+  "borderColor": "#FF00E1FF",
+  "groupId": "editions",
+  "id": "e-directors",
+  "isEnabled": true,
+  "name": "🎥 𝙳𝚒𝚛𝚎𝚌𝚝𝚘𝚛'𝚜 𝙲𝚞𝚝",
+  "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
+  "tagColor": "#474747",
+  "tagStyle": "bordered",
+  "textColor": "#ffcc80",
+  "type": "filter"
+},
 {
   "borderColor": "#FF00E1FF",
   "groupId": "gb",
@@ -232,7 +256,7 @@
   "id": "b-under20",
   "isEnabled": true,
   "name": "ᯤ",
-  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?:\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b(?!.*(?:2160|4k|uhd|remux)))",
+  "pattern": "(?i)(?:^(?:[^•\\n]*•)?\\s*\\b(?:[0-9]|1[0-9])(?:\\.\\d)?\\s?Mbps\\b)|(?:^(?!.*(?:2160|4k|uhd|remux)).*\\b(?:bluray|bdrip|brrip|web[-_]?dl|webrip|web)\\b)",
   "tagColor": "#00000000",
   "tagStyle": "filled",
   "textColor": "#d4edca",
@@ -267,6 +291,13 @@
       "id": "gv",
       "isExpanded": true,
       "name": "Visual"
+    },
+        {
+      "borderColor": "#FF858283",
+      "color": "#FF6B6B",
+      "id": "editions",
+      "isExpanded": true,
+      "name": "editions"
     },
     {
       "borderColor": "#FF00E1FF",
