@@ -243,7 +243,7 @@
   "name": "𝙴𝚡𝚝𝚎𝚗𝚍𝚎𝚍",
   "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
   "tagColor": "#474747",
-  "tagStyle": "bordered,
+  "tagStyle": "bordered",
   "textColor": "#FFFFFF",
   "type": "filter"
 },
