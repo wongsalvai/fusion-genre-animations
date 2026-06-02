@@ -234,7 +234,7 @@
       "type": "filter"
     },
 
-    {
+{
   "borderColor": "#FF00E1FF",
   "groupId": "editions",
   "id": "e-extended",
@@ -255,10 +255,9 @@
   "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
   "tagColor": "#474747",
   "tagStyle": "bordered",
-  "textColor": "#ffffff",
+  "textColor": "#FFFFFF",
   "type": "filter"
-
-},
+}
 {
       "borderColor": "#00000000",
       "groupId": "gl",
