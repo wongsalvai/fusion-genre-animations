@@ -30,7 +30,7 @@
       "id": "r-720",
       "isEnabled": true,
       "name": "HD",
-      "pattern": "(?i)\\b(hd)?1080[pi]?\\b",
+      "pattern": "(?i)\\b(hd)?720[pi]?\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
@@ -277,7 +277,7 @@
   "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/7dot1.png",
   "isEnabled": true,
   "name": "7.1",
-  "pattern": "(?i)(?:^|[-._ ])?(7)(?:[ .]?1)(?!\\d)"
+  "pattern": "(?i)(?:^|[-._ ])?(7)(?:[ .]?1)(?!\\d)",
   "tagColor": "#474747",
   "tagStyle": "filled",
   "textColor": "#FFFFFF",
