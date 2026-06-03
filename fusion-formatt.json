@@ -90,11 +90,11 @@
         {
       "borderColor": "#FF858283",
       "groupId": "gq",
-      "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/webriptag.png",
+      "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/web2.png",
       "id": "q-w",
       "isEnabled": true,
       "name": "WEBRIP",
-      "pattern": "(?i)^(?=.*(?:webrip|web-rip|hdrip|hd-rip|hc[ ._-]?hd[ ._-]?rip|hc-hd-rip|dvdrip|dvd-rip|hdtv|xvid|brrip))",
+      "pattern": "(?i)^(?!.*(?:web[- ._]?dl))(?=.*(?:webrip|web-rip|hdrip|hd-rip|hc[ ._-]?hd[ ._-]?rip|hc-hd-rip|dvdrip|dvd-rip|hdtv|xvid|brrip))",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
