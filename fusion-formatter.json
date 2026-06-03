@@ -81,7 +81,7 @@
       "id": "q-w",
       "isEnabled": true,
       "name": "WEBDL",
-      "pattern": "(?i)^(?=.*(?:web[ ._-]?dl|webdl|amzn|amazon|nf|netflix|dsnp|disney|atvp|itunes|max|hbo))",
+      "pattern": "(?i)^(?=.*(?:web[ ._-]?dl|webdl|))",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
