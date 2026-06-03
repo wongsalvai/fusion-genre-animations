@@ -18,7 +18,7 @@
       "id": "r-1080",
       "isEnabled": true,
       "name": "FHD",
-"pattern": "(?i)\\b(fhd|hd)?1080[pi]?\\b",
+      "pattern": "(?i)\\b(fhd|hd)?1080[pi]?\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
@@ -90,7 +90,7 @@
         {
       "borderColor": "#FF858283",
       "groupId": "gq",
-      "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/rip2.png",
+      "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/rip3.png",
       "id": "q-wr",
       "isEnabled": true,
       "name": "WEBRIP",
