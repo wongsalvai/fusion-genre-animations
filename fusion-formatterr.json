@@ -264,7 +264,7 @@
   "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/newda.png",  
   "isEnabled": true,
   "name": "Stereo",
-  "pattern": "(?i)(?:^|[-._ ])(?:stereo|2[ .]?0|2ch|mono|aac|flac|opus|mp3|pcm)",
+  "pattern": "(?i)(?:^|[-._ ])(?:stereo|2[ .]?0|2ch|mono|aac|flac|opus|mp3|pcm)(?![a-z0-9])",
   "tagColor": "#474747",
   "tagStyle": "filled",
   "textColor": "#FFFFFF",
