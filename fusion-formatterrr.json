@@ -81,7 +81,7 @@
       "id": "q-w",
       "isEnabled": true,
       "name": "WEB",
-      "pattern": "(?i)^(?=.*(?:WEB[-_. ]?(?:DL|Rip|Mux)|WEBDL|WEBRip|WebRip|Web-Rip|WEB|Max\.?WEB|HMAX\.?WEB|MAX\.?WEB|AMZN|NF|DSNP|DP)[-. ]?(?:WEB|DL|Rip|Mux)?)",
+      "pattern": "(?i)^(?=.*(?:WEB[-_. ]?(?:DL|Rip|Mux)|WEBDL|WEBRip|WebRip|Web-Rip|WEB|Max\\.?WEB|HMAX\\.?WEB|MAX\\.?WEB|AMZN|NF|DSNP|DP)[-. ]?(?:WEB|DL|Rip|Mux)?)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
