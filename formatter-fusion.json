@@ -41,7 +41,7 @@
       "groupId": "gr",
       "id": "r-480",
       "isEnabled": true,
-      "name": "SD",
+      "name": "‎ SD‎ ",
       "pattern": "(?i)\\b(?:480p|480i|sd|dvd.?rip|dvdrip|dvd rip|dvd-rip|576p|852x480|848x480|854x480)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
@@ -151,6 +151,19 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+        {
+      "borderColor": "#FF858283",
+      "groupId" : "gv",
+      "id" : "v-sdr",
+      "imageURL" : "https://raw.githubusercontent.com/je19921/cardgenerator.github.io/refs/heads/main/SDR.png",
+      "isEnabled" : true,
+      "name" : "SDR",
+      "pattern" : "(?i)^(?!.*\\b(?:hdr|hdr10|hdr10\\+|dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bsdr\\b)",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
+      "textColor" : "#FFFFFF",
+      "type" : "filter"
     },
     {
       "borderColor": "#00000000",
