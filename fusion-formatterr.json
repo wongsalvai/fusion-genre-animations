@@ -29,7 +29,7 @@
       "groupId": "gr",
       "id": "r-720",
       "isEnabled": true,
-      "name": "HD",
+      "name": "‎ HD‎ ",
       "pattern": "(?i)\\b(hd)?720[pi]?\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
