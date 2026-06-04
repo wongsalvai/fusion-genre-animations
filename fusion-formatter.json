@@ -243,19 +243,19 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-    {
-  "borderColor": "#00000000",
-  "groupId": "ga",
-  "id": "a-stereo-fallback",
-  "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/newda.png",  
-  "isEnabled": true,
-  "name": "Stereo",
-  "pattern": "(?i)(?:^|[-._ ])(?:stereo|2[ .]?0|2ch|mono|aac|flac|opus|mp3|pcm)(?![a-z0-9])",
-  "tagColor": "#474747",
-  "tagStyle": "filled",
-  "textColor": "#FFFFFF",
-  "type": "filter"
-},
+           {
+      "borderColor": "#00000000",
+      "groupId": "ga",
+      "id": "a-dd",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/digital.png",
+      "isEnabled": true,
+      "name": "DD",
+      "pattern": "(?i)^(?=.*\\b(?:dd[25][. ][01]|dd[^p+a-z]\\b|\\bac-?3)\\b)(?!.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
     {
   "borderColor": "#474747",
   "groupId": "gc",
