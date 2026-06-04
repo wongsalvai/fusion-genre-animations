@@ -152,19 +152,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-        {
-      "borderColor": "#FF858283",
-      "groupId" : "gv",
-      "id" : "v-sdr",
-      "imageURL" : "https://raw.githubusercontent.com/je19921/cardgenerator.github.io/refs/heads/main/SDR.png",
-      "isEnabled" : true,
-      "name" : "SDR",
-      "pattern": "(?i)^(?!.*\\b(?:hdr|hdr10|hdr10\\+|dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bsdr\\b)",
-      "tagColor": "#474747",
-      "tagStyle": "filled",
-      "textColor" : "#FFFFFF",
-      "type" : "filter"
-    },
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -255,20 +242,6 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
-    },
-        {
-      "borderColor": "#00000000",
-      "groupId": "ga",
-      "id": "a-dd",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/digital.png",
-      "isEnabled": true,
-      "name": "DD",
-      "pattern": "(?i)^(?=.*\\b(?:dd[25][. ][01]|dd[^p+a-z]\\b|\\bac-?3)\\b)(?!.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
-      "tagColor": "#474747",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-      
     },
     {
   "borderColor": "#00000000",
