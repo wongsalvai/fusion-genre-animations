@@ -159,7 +159,7 @@
       "imageURL" : "https://raw.githubusercontent.com/je19921/cardgenerator.github.io/refs/heads/main/SDR.png",
       "isEnabled" : true,
       "name" : "SDR",
-      "pattern": "^(?!.*(hdr10\\+|hdr10|dolby|vision|dovi|dv|hdr)).*$",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b).+",
       "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor" : "#FFFFFF",
