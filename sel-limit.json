@@ -1,0 +1,55 @@
+merge(
+
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray REMUX'),'2160p','1440p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray REMUX'),'1080p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray REMUX'),'720p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray REMUX'),'576p','480p'), 1),
+
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray'),'2160p','1440p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray'),'1080p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray'),'720p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'Bluray'),'576p','480p'), 1),
+
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEB-DL'),'2160p','1440p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEB-DL'),'1080p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEB-DL'),'720p'), 1),
+  slice(resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEB-DL'),'576p','480p'), 1),
+
+  slice(
+    merge(
+
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEBRip'),'2160p','1440p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEBRip'),'1080p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEBRip'),'720p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'WEBRip'),'576p','480p'),
+
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDRip'),'2160p','1440p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDRip'),'1080p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDRip'),'720p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDRip'),'576p','480p'),
+
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HC HD-Rip'),'2160p','1440p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HC HD-Rip'),'1080p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HC HD-Rip'),'720p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HC HD-Rip'),'576p','480p'),
+
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'DVDRip'),'2160p','1440p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'DVDRip'),'1080p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'DVDRip'),'720p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'DVDRip'),'576p','480p'),
+
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDTV'),'2160p','1440p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDTV'),'1080p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDTV'),'720p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'HDTV'),'576p','480p'),
+
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'XVID'),'2160p','1440p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'XVID'),'1080p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'XVID'),'720p'),
+      resolution(quality(negate(merge((library(streams)),uncached(streams)),streams),'XVID'),'576p','480p'),
+
+    ),
+    1
+  )
+
+)
