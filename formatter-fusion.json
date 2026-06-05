@@ -74,20 +74,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-imax",
-      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
-      "isEnabled": true,
-      "name": "IMAX",
-      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
-      "tagColor": "#474747",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
         {
       "borderColor": "#FF858283",
       "groupId": "gq",
@@ -97,6 +83,19 @@
       "name": "WEBDL",
       "pattern": "(?i)(?:web(?:[ ._-]?(?:dl|rip))?|webrip|hd[ ._-]?rip|hc[ ._-]?hd[ ._-]?rip|dvd[ ._-]?rip|hdtv|xvid)",
       "tagColor": "#33FFFFFF",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+        {
+      "borderColor": "#FF858283",
+      "groupId": "gv",
+      "id": "v-imax",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
+      "isEnabled": true,
+      "name": "IMAX",
+      "pattern": "(?i)\\bimax(?:[\\s._-]?enhanced)?\\b",
+      "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
