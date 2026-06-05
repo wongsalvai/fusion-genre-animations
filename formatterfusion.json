@@ -213,7 +213,7 @@
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshd.png",
       "isEnabled": true,
       "name": "DTS-HD",
-     "pattern": "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?(?:ma|hdma)\\b)(?!.*\\bdts[-_.: ]?x\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b).+"
+     "pattern": "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?(?:ma|hdma)\\b)(?!.*\\bdts[-_.: ]?x\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b).+",
       "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
