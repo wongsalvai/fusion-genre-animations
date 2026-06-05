@@ -6,7 +6,7 @@
       "id": "r-4k",
       "isEnabled": true,
       "name": "UHD",
-      "pattern": "(?i)(?=(?:^|[\s._\-\[\(])(?:2160[pi]?|4k|uhd)(?:$|[\s._\-\]\)]))(?!.*\b(?:1080[pi]?|720[pi]?)\b).+",
+      "pattern": "(?i)(?=(?:^|[\\s._\\-\\[\\(])(?:2160[pi]?|4k|uhd)(?:$|[\\s._\\-\\]\\)]))(?!.*\\b(?:1080[pi]?|720[pi]?)\\b).+",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
