@@ -94,7 +94,7 @@
       "id": "q-wr",
       "isEnabled": true,
       "name": "WEBRIP",
-      "pattern": "(?i)webrip|web[ ._-]?rip|hd[ ._-]?rip|hc[ ._-]?hd[ ._-]?rip|dvd[ ._-]?rip|hdtv|xvid",
+      "pattern": "(?i)webrip|web[ ._-]?rip|hd[ ._-]?rip|hc[ ._-]?hd[ ._-]?rip|dvd[ ._-]?rip|hdtv",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
