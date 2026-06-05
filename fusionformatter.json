@@ -95,7 +95,7 @@
       "id": "q-w",
       "isEnabled": true,
       "name": "WEBDL",
-      "pattern": "(?i)(?:web(?:[ ._-]?(?:dl|rip))?|hd[ ._-]?rip|hc[ ._-]?hd[ ._-]?rip|dvd[ ._-]?rip|hdtv|xvid|)",
+      "pattern": "(?i)(?:web(?:[ ._-]?(?:dl|rip))?|hd[ ._-]?rip|hc[ ._-]?hd[ ._-]?rip|dvd[ ._-]?rip|hdtv|xvid)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
