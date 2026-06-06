@@ -48,7 +48,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "gq",
@@ -62,7 +61,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "gq",
@@ -76,36 +74,33 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
+        {
       "borderColor": "#FF858283",
       "groupId": "gq",
-      "id": "q-w",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/mono-webdl.png",
+      "id": "q-w",
       "isEnabled": true,
       "name": "WEBDL",
-      "pattern": "(?i)web[\\s._-]?dl(?![a-z0-9])",
+      "pattern": "(?i)web[ ._-]?dl(?![a-z0-9])",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
+            {
       "borderColor": "#FF858283",
       "groupId": "gq",
-      "id": "q-wr",
       "imageURL": "https://raw.githubusercontent.com/wongsalvai/fusion-genre-animations/refs/heads/main/rip10.png",
+      "id": "q-wr",
       "isEnabled": true,
       "name": "WEBRIP",
-      "pattern": "(?i)webrip|web[\\s._-]?rip|hd[\\s._-]?rip|hc[\\s._-]?hd[\\s._-]?rip|dvd[\\s._-]?rip|hdtv",
+      "pattern": "(?i)webrip|web[ ._-]?rip|hd[ ._-]?rip|hc[ ._-]?hd[ ._-]?rip|dvd[ ._-]?rip|hdtv",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
+        {
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-imax",
@@ -132,7 +127,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#00000000",
       "groupId": "gv",
@@ -146,21 +140,19 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
+        {
       "borderColor": "#00000000",
       "groupId": "gv",
       "id": "a-dv",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
       "isEnabled": true,
       "name": "DV",
-      "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\b(?:atmos)\\b)?(?!.*\\btrue[\\s._-]?hd\\b).+",
+      "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?!.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b).+",
       "tagColor": "#474747",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "gv",
@@ -174,11 +166,11 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
+        {
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-hdr",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/HDR.png",
       "isEnabled": true,
       "name": "HDR",
       "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
@@ -187,7 +179,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -201,7 +192,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -215,8 +205,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
-    {
+{
       "borderColor": "#FF858283",
       "groupId": "ga",
       "id": "a-dtsx",
@@ -229,7 +218,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "ga",
@@ -243,11 +231,11 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "ga",
       "id": "a-dtshd",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dtshd.png",
       "isEnabled": true,
       "name": "DTS-HD",
       "pattern": "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
@@ -256,11 +244,11 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "ga",
       "id": "a-dts",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/dts.png",
       "isEnabled": true,
       "name": "DTS",
       "pattern": "(?i)^(?=.*\\bDTS\\b)(?!.*\\bdts[-_. ]?(?:hd|ma|xll|x)\\b)",
@@ -268,6 +256,163 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+       {
+      "borderColor": "#00000000",
+      "groupId": "ga",
+      "id": "a-dp",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/digitalplus.png",
+      "isEnabled": true,
+      "name": "DD+",
+      "pattern": "(?i)^(?=.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\bdts[-_. ]?hd[-_. ]?ma(?=[^a-z0-9]|$)\\b)(?!.*\\bdts[-_. ]?x\\b).+",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+           {
+      "borderColor": "#00000000",
+      "groupId": "ga",
+      "id": "a-dd",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/digital.png",
+      "isEnabled": true,
+      "name": "DD",
+      "pattern": "(?i)^(?=.*\\b(?:dd[25][. ][01]|dd[^p+a-z]\\b|\\bac-?3)\\b)(?!.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+  "borderColor": "#474747",
+  "groupId": "gc",
+  "id": "ch-7.1",
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/7dot1.png",
+  "isEnabled": true,
+  "name": "7.1",
+      "pattern": "[^0-9][7-8][. ][01](?![0-9])",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#FFFFFF",
+  "type": "filter"
+},
+    {
+  "borderColor": "#474747",
+  "groupId": "gc",
+  "id": "ch-5.1",
+  "isEnabled": true,
+  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/5dot1.png",
+  "name": "5.1",
+ "pattern": "^(?=.*[^0-9]5[. ][01](?![0-9]))(?!.*[^0-9][7-8][. ][01](?![0-9]))",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+  "type": "filter"
+    },
+
+    {
+  "borderColor": "#474747",
+  "groupId": "editions",
+  "id": "e-extended",
+  "isEnabled": true,
+  "name": "ᴇxᴛᴇɴᴅᴇᴅ",
+  "pattern": "(?i)\\b(extended(\\s?cut|\\s?edition)?)\\b",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#F2C6A0",
+  "type": "filter"
+},
+{
+  "borderColor": "#474747",
+  "groupId": "editions",
+  "id": "e-directors",
+  "isEnabled": true,
+  "name": "ᴅɪʀᴇᴄᴛᴏʀs's ᴄᴜᴛ",
+  "pattern": "(?i)\\b(directors?(\\s?cut)?)\\b",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#D8C7FF",
+  "type": "filter"
+},
+    {
+  "borderColor": "#474747",
+  "groupId": "editions",
+  "id": "e-theatrical",
+  "isEnabled": true,
+  "name": "ᴛʜᴇᴀᴛʀɪᴄᴀʟ",
+  "pattern": "(?i)\\btheatrical\\b",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#B8D8FF",
+  "type": "filter"
+},
+    {
+  "borderColor": "#474747",
+  "groupId": "editions",
+  "id": "e-uncut",
+  "isEnabled": true,
+  "name": "ᴜɴᴄᴜᴛ",
+  "pattern": "(?i)\\b(uncut|uncensored)\\b",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#FFB3C1",
+  "type": "filter"
+},
+    {
+  "borderColor": "#474747",
+  "groupId": "editions",
+  "id": "e-remastered",
+  "isEnabled": true,
+  "name": "ʀᴇᴍᴀsᴛᴇʀᴇᴅ",
+  "pattern": "(?i)\\bremaster(ed)?\\b",
+  "tagColor": "#474747",
+  "tagStyle": "filled",
+  "textColor": "#CFF5D2",
+  "type": "filter"
+}
+    ],
+  "groups": [
+    {
+      "borderColor": "#FF858283",
+      "color": "#FFBE01",
+      "id": "gr",
+      "isExpanded": true,
+      "name": "Resolution"
+    },
+    {
+      "borderColor": "#FF00FF37",
+      "color": "#27C04F",
+      "id": "gq",
+      "isExpanded": true,
+      "name": "Quality"
+    },
+
+    {
+      "borderColor": "#FF858283",
+      "color": "#FF6B6B",
+      "id": "gv",
+      "isExpanded": true,
+      "name": "Visual"
+    },
+        {
+      "borderColor": "#00000000",
+      "color": "#45B7D1",
+      "id": "ga",
+      "isExpanded": true,
+      "name": "Audio"
+    },
+       {
+      "borderColor": "#00000000",
+      "color": "#FFD700",
+      "id": "gc",
+      "isExpanded": true,
+      "name": "channels"
+    },
+        {
+      "id": "editions",
+      "isExpanded": true,
+      "name": "editions"
     }
+
   ]
 }
