@@ -283,32 +283,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-    {
-  "borderColor": "#474747",
-  "groupId": "gc",
-  "id": "ch-7.1",
-  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/7dot1.png",
-  "isEnabled": true,
-  "name": "7.1",
-      "pattern": "[^0-9][7-8][. ][01](?![0-9])",
-  "tagColor": "#474747",
-  "tagStyle": "filled",
-  "textColor": "#FFFFFF",
-  "type": "filter"
-},
-    {
-  "borderColor": "#474747",
-  "groupId": "gc",
-  "id": "ch-5.1",
-  "isEnabled": true,
-  "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/5dot1.png",
-  "name": "5.1",
- "pattern": "^(?=.*[^0-9]5[. ][01](?![0-9]))(?!.*[^0-9][7-8][. ][01](?![0-9]))",
-      "tagColor": "#474747",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-  "type": "filter"
-    },
+    
 
     {
   "borderColor": "#474747",
@@ -369,7 +344,21 @@
   "tagStyle": "filled",
   "textColor": "#CFF5D2",
   "type": "filter"
-}
+},
+             {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-pl",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🇵🇱",
+      "pattern": "(?i)\\bpolish\\b|\\bpl\\b",
+      "tagColor": "#474747",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    }
+    
     ],
   "groups": [
     {
@@ -412,6 +401,13 @@
       "id": "editions",
       "isExpanded": true,
       "name": "editions"
+    },
+       {
+      "borderColor": "#00000000",
+      "color": "#4ECDC4",
+      "id": "gl",
+      "isExpanded": true,
+      "name": "Language"
     }
 
   ]
