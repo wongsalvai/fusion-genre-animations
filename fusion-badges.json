@@ -390,13 +390,6 @@
       "isExpanded": true,
       "name": "Audio"
     },
-       {
-      "borderColor": "#00000000",
-      "color": "#FFD700",
-      "id": "gc",
-      "isExpanded": true,
-      "name": "channels"
-    },
         {
       "id": "editions",
       "isExpanded": true,
